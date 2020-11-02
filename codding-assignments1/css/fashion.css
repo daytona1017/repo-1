@@ -101,7 +101,7 @@ padding-top: 350px;
 padding-right: 155px;
 }
 
-.head-text p, span{
+. p, span{
 font-size: 18px;
 color: #22262A;
 font-weight: 500;
@@ -704,7 +704,7 @@ padding: 0 25px;
 
 .head-text {
 padding-bottom: 110px;
-padding-right: 15%;
+padding-right: 20px;
 }
       
 .head-text p, span {
@@ -752,13 +752,17 @@ font-size: smaller;
   }
 
 }
-/*-----
+
+/*----changes for head-text ----*/
+
 @media  screen and (max-width: 576px) {
 
+.head-text {
+padding-right: 20px;
+}
 
 
 }
-----*/
 
 
 @media  screen and (max-width: 420px) {
@@ -802,6 +806,19 @@ width: 100%;
 position: absolute;
 } 
 
+}
+
+
+@media  screen and (max-width: 330px) {
+.head-text{
+padding-left: 20px;
+}
+}
+
+@media  screen and (max-width: 279px) {
+.first-image {
+display: none;
+}
 }
 
 
