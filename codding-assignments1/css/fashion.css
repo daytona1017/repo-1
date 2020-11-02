@@ -101,11 +101,7 @@ padding-top: 350px;
 padding-right: 155px;
 }
 
-. p, span{
-font-size: 18px;
-color: #22262A;
-font-weight: 500;
-}
+
 
 .head-text h2 {
 font-size: 80px;
@@ -145,7 +141,7 @@ background-color: #5d5d5d;
 }
 
 #anti-row {
-padding-top: 5px;
+padding-top: 25px;
 }
 /*---------sections under main image---------*/
 
@@ -210,26 +206,30 @@ padding-top: 50px;
 
 
 .dress {
-margin-left: 130px;
-font-size: 13px;
+padding-top: 140px;
+}
+
+.dress p {
 border-bottom: 1px solid #000000;
-margin-top: -60px;
+font-size: 13px;
 }
 
 .fire {
-height: 80%;
-margin-top: 120px;
+padding-top: 120px;
 }
 
 .freaky{
-height: 60%;
-margin-top: 45px;
+padding-top: 45px;
+padding-bottom: 20px;
 }
 
 
 .fixer {
-margin-left: 55%;
-margin-top: -95px;
+margin: 0 300px;
+margin-top: -300px;
+}
+
+.fixer img {
 border-top: 22px solid #ffffff;
 border-left: 25px solid #ffffff;
 }
@@ -306,7 +306,7 @@ border-radius: 1.3px;
 }
 
 .space {
-padding-bottom: 10px;
+padding-bottom: 20px;
 }
 
 /*-------footer------*/
@@ -524,6 +524,13 @@ transform: rotate(-135deg);
 }
 
 /*-------responsive way!!!!---------*/
+@media  screen and (max-width: 1024px) {
+.fixer {
+margin: 0 200px;
+margin-top: -300px;
+}
+
+}
 
 @media  screen and (min-width: 1024px) {
 #nav-sword  a {
@@ -533,9 +540,18 @@ display: none;
 }
 @media  screen and (max-width: 992px) {
 #anti-row{
-padding-right: 140px;
+padding-right: 105px;
+padding-bottom: 0px;
 }
 
+
+.mover {
+padding: 0 65px;;
+}
+
+.pend {
+display: none;
+}
 /*------
 .rectangle-img {
 width: 78%;
@@ -546,8 +562,8 @@ width: 78%;
 padding: 15px 0;
 }
  
-.dress {
-margin-left: 10px;
+.dress p{
+border-bottom: none;
 }
     
 
@@ -599,7 +615,6 @@ font-size: 13px;
 
 .bg {
  height: 100%;
- width: 100%;
  background-position: center;
  }
 
@@ -619,9 +634,8 @@ font-size: 43px;
 color: #22262A;
 font-weight: 700;
 }
-#rect {
+.react {
 margin-top: 15px;
-height: 100%;
 }         
   
 
@@ -635,17 +649,16 @@ height: 100%;
 width: 100%;
 }
 ---*/
-#anti-row{
-padding-right: 0;
-}
+
        
 .sale-figures {
 text-align: center;
+padding-bottom: 20px;
 }
-
+/*-----
 .fixer {
  width: 50%;
-}
+-----*/
 .bottom-text {
 padding-top: 30%;
 padding-left: 5%;
@@ -669,7 +682,10 @@ font-size: 12px;
 font-size: 11px;
 }
  
-
+.mover {
+padding: 0 65px;;
+}
+  
 
 .little-logo {
 padding: 2% 6%;
@@ -762,6 +778,7 @@ padding-right: 20px;
 }
 
 
+
 }
 
 
@@ -793,10 +810,7 @@ text-align: center;
 padding-left: 20px;
 }
 
-.bg {
-height: 250px;
-overflow: hidden; 
-}
+
 
 .first-image {
 width: 100%;
