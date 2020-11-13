@@ -1,7 +1,6 @@
 *{
 margin: 0;
-padding: 0;
-  
+padding: 0; 
 }
 body {
 font-family: "poppins", sans-serif;
@@ -784,7 +783,6 @@ padding-right: 20px;
 
 @media  screen and (max-width: 420px) {
 #nav-sword {
-
 right: 0;
 } 
 
@@ -817,7 +815,7 @@ width: 100%;
 }
 
 #nav-sword  span {
-position: absolute;
+position: relative;
 } 
 
 }

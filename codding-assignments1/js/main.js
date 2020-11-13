@@ -66,7 +66,7 @@
 
         if ($('body').hasClass('mobile-nav-active')) {
           $('body').removeClass('mobile-nav-active');
-          $('.mobile-nav-toggle i').toggleClass('fa-times fa-bars');
+          $('.mobile-nav-toggle i').toggleClass('fa-times fa-');
           $('.mobile-nav-overly').fadeOut();
         }
         return false;
