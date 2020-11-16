@@ -17,19 +17,13 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
  
 
-    <!-- <script src="./lib/splide.js"></script>
-    <link rel="stylesheet" href="splide-2.4.12/dist/css/splide.min.css">
-    
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css"> -->
-
-
- 
+  
 
 <!-- Optional Theme Stylesheet -->
 <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
    
 <link rel="stylesheet" href="glide.css/dist/css/glide.core.min.css">
-<link rel="stylesheet" href="glide.css/dist/css/glide.theme.min.css">
+<!-- <link rel="stylesheet" href="glide.css/dist/css/glide.theme.min.css"> -->
     
 </head>
 <body>
@@ -185,16 +179,6 @@
 </div>
 </section>
 
-
-
-
-
-
-
-
-
-
-
 <section class="the-news">
 <div class="container">
     <div class="news-text">
@@ -247,8 +231,8 @@
             <h2>Upcoming Universities</h2>
             <p>lormore and more for lorem dorem more and more for space,lorem dorem more and more for space,lorem dorem more and more for space,lorem dorem more and more for space,  </p>
         </div>
-        <div class="row">
-        <div class="glide">
+        <!-- <div class="row"> -->
+        <div class="glide" id="duces">
             <div class="glide__track" data-glide-el="track">
               <ul class="glide__slides">
                 <div class="col-lg-6">
@@ -317,7 +301,7 @@
         </div>
     
         <div class="row">
-            <div class="glide">
+            <div class="glide" id="retro">
                 <div class="glide__track" data-glide-el="track">
                   <ul class="glide__slides">
                     <div class="col-lg-4 col-md-12">
@@ -373,10 +357,10 @@
             <p>Torquem detraxit hosti et quidem faciunt, ut et negent satis esse appetendum, alterum. Si sine causa? quae fuerit causa, mox videro; interea hoc epicurus in liberos.</p>
         </div>
     <div class="row">
-        <div class="glide">
+        <div class="glide" id="intro">
             <div class="glide__track" data-glide-el="track">
               <ul class="glide__slides">
-                            <div class="col-lg-4 col-md-4"> 
+                    <div class="col-lg-4 col-md-4"> 
                             <li class="glide__slide">       
                                 <div class="testimony-line">
                                 <a><img src="images/testimonial1.jpg" alt=""></a>
@@ -387,11 +371,12 @@
                             </div>
                             <p class="money-rail">Nisi cumque in necessitatibus molestiae eaque excepturi ab. Laboriosam ipsam voluptatem voluptatibus labore quam nihil. Quasi occaecati quos ratione quia aut molestiae velit et. Voluptatem id ea dicta inventore et quo impedit repudiandae. Qui officia aperiam atque qui occaecati est. Magnam voluptatem earum excepturi qui quae ea qui.</p>  
                         </div>
-                    </li>
+                    
+                    </li class="glide__slide" > 
                         <div class="col-lg-4 col-md-4"> 
                             <li class="glide__slide">       
                                 <div class="testimony-line">
-                                <a><img src="images/testimonial1.jpg" alt=""></a>
+                                <a><img src="images/testimonial2.jpg" alt=""></a>
                                 <div class="line"> 
                                     <h2>Harrison Phillips</h2>
                                     <p>Reporter</p>
@@ -399,11 +384,11 @@
                             </div>
                             <p class="money-rail">Nisi cumque in necessitatibus molestiae eaque excepturi ab. Laboriosam ipsam voluptatem voluptatibus labore quam nihil. Quasi occaecati quos ratione quia aut molestiae velit et. Voluptatem id ea dicta inventore et quo impedit repudiandae. Qui officia aperiam atque qui occaecati est. Magnam voluptatem earum excepturi qui quae ea qui.</p>  
                         </div>
-                    </li>
+                    </li class="glide__slide"> 
                     <div class="col-lg-4 col-md-4"> 
                         <li class="glide__slide">       
                             <div class="testimony-line">
-                            <a><img src="images/testimonial1.jpg" alt=""></a>
+                            <a><img src="images/testimonial3.jpg" alt=""></a>
                             <div class="line"> 
                                 <h2>Harrison Phillips</h2>
                                 <p>Reporter</p>
@@ -412,17 +397,47 @@
                         <p class="money-rail">Nisi cumque in necessitatibus molestiae eaque excepturi ab. Laboriosam ipsam voluptatem voluptatibus labore quam nihil. Quasi occaecati quos ratione quia aut molestiae velit et. Voluptatem id ea dicta inventore et quo impedit repudiandae. Qui officia aperiam atque qui occaecati est. Magnam voluptatem earum excepturi qui quae ea qui.</p>  
                     </div>
                 </li>
-              </ul>
+            </li class="glide__slide"> 
+            <div class="col-lg-4 col-md-4"> 
+                <li class="glide__slide">       
+                    <div class="testimony-line">
+                    <a><img src="images/testimonial1.jpg" alt=""></a>
+                    <div class="line"> 
+                        <h2>Harrison Phillips</h2>
+                        <p>Reporter</p>
+                    </div>
+                </div>
+                <p class="money-rail">Nisi cumque in necessitatibus molestiae eaque excepturi ab. Laboriosam ipsam voluptatem voluptatibus labore quam nihil. Quasi occaecati quos ratione quia aut molestiae velit et. Voluptatem id ea dicta inventore et quo impedit repudiandae. Qui officia aperiam atque qui occaecati est. Magnam voluptatem earum excepturi qui quae ea qui.</p>  
             </div>
-            <div class="glide__bullets" data-glide-el="controls[nav]">
-                <button class="glide__bullet" data-glide-dir="=0"></button>
-                <button class="glide__bullet" data-glide-dir="=1"></button>
-                <button class="glide__bullet" data-glide-dir="=2"></button>
-              </div>
-          </div>
+        </li>
+    </li class="glide__slide"> 
+    <div class="col-lg-4 col-md-4"> 
+        <li class="glide__slide">       
+            <div class="testimony-line">
+            <a><img src="images/testimonial2.jpg" alt=""></a>
+            <div class="line"> 
+                <h2>Harrison Phillips</h2>
+                <p>Reporter</p>
+            </div>
+        </div>
+        <p class="money-rail">Nisi cumque in necessitatibus molestiae eaque excepturi ab. Laboriosam ipsam voluptatem voluptatibus labore quam nihil. Quasi occaecati quos ratione quia aut molestiae velit et. Voluptatem id ea dicta inventore et quo impedit repudiandae. Qui officia aperiam atque qui occaecati est. Magnam voluptatem earum excepturi qui quae ea qui.</p>  
+    </div>
+</li>
+</li class="glide__slide"> 
+
+</ul>
+</div>
+<div class="glide__bullets" id="bullets" data-glide-el="controls[nav]">
+    <button class="glide__bullet" data-glide-dir="=0"></button>
+    <button class="glide__bullet" data-glide-dir="=1"></button>
+    <button class="glide__bullet" data-glide-dir="=2"></button>
+    <button class="glide__bullet" data-glide-dir="=3"></button>
+    <button class="glide__bullet" data-glide-dir="=4"></button>
+</div>
+</div>
        
-    </div>
-    </div>
+</div>
+</div>
 </section>
 
 
@@ -510,44 +525,7 @@
 <!-- glide slides -->
 <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
 
-<script>
-    const config = {
-    type: "carousel",
-    perView: 2, 
-    breakpoints: {
-    1200: {
-        perView: 1
-      }
-     }
-    };
-    new Glide('.glide', config ).mount()
-</script>
 
-<script>
-    const config = {
-    type: "carousel",
-    perView: 3, 
-    breakpoints: {
-    800: {
-        perView: 1
-      }
-     }
-    };
-    new Glide('.glide', config ).mount()
-  </script>
-
-<script>
-    const config = {
-    type: "carousel",
-    perView: 3, 
-    breakpoints: {
-    800: {
-        perView: 2
-      }
-     }
-    };
-    new Glide('.glide', config ).mount()
-  </script>
     <script>
         function myFunction() {
           var x = document.getElementById("myLinks");
@@ -567,14 +545,61 @@
         });
         </script>
 
+
+<script>
+    var glide = new Glide('#intro', {
+    type: 'carousel',
+    perView: 2,
+    focusAt: 'center',
+    breakpoints: {
+    800: {
+    perView: 2,
+    },
+    480: {
+    perView: 1
+    
+    }          
+}
+})
+
+glide.mount()
+</script>
+
+<script>
+    var glide = new Glide('#retro', {
+    type: 'carousel',
+    perView: 3,
+    focusAt: 'center',
+    breakpoints: {
+    1300: {
+    perView: 2,
+    },
+    1024: {
+    perView: 1
+    
+    }          
+}
+})
+
+glide.mount()
+</script>
+
+<script>
+    var glide = new Glide('#duces', {
+    type: 'carousel',
+    perView: 2,
+    breakpoints: {
+    480: {
+    perView: 1
+    
+    }          
+}
+})
+
+glide.mount()
+</script>
+
     
 </body>
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="lib/splide.min.js"></script>
-
-
-  
-   -->
-
 
 </html>
