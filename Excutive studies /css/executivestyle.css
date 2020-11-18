@@ -64,17 +64,17 @@
   
   /*----1st-section-----*/  
   .logo1{
-  padding: 30px 5px 90px 150px;
+  padding: 30px 5px;
   }
   
   .head-nav {
   display: inline-flex;
-  padding: 10px 0 0 50px;
+  padding: 10px 5px;
   }
   
   .head-nav ul li  {
   float: left;
-  padding: 30px 40px 0 25px;
+  padding: 30px  25px;
   }
   
   
@@ -96,7 +96,7 @@
   
   /*----2nd-section------*/
   .head-text {
-  padding: 50px 5px 90px 150px;
+  padding: 50px 5px;
   }
   
   .head-text h2 {
@@ -155,7 +155,8 @@
   /*----break-images-overlaying----*/
   .student-image {
   padding-top: 40px;
-  flex: right;
+  float: left;
+  padding-left: 25px;
   }
   /*-----2nd future-section----*/
   .future {
@@ -517,7 +518,7 @@
     display: block;
     position: absolute;
     right: 0;
-    top: 40px;
+    top: 35px;
     width: 25px;
     height: 20px;
     display: none;
@@ -626,11 +627,10 @@
   }     
   .mobile-nav {
   display: none;
-  padding: 20px 0;
-  padding-left: 35px;
-  padding-top: 16px;
+  padding-left: 25px;
+  padding-top: 10px;
   padding-bottom: 20px;
-  background: #fff;
+  background: #FAFAFA;
   position: relative;
   z-index: 99;
   width: 100%;
@@ -651,19 +651,17 @@
   .mobile-nav a:hover {
   text-decoration: none; 
   }
-  .head-text {
-  padding: 10px 20px 20px 30px;    
-  }      
+       
   .head-text h2 {
   font-size: 40px;
   }     
   .head-text p{
   font-size: 20px;
   }          
-  .logo1 {
+  /* .logo1 {
   padding: 30px 20px 20px 30px;
   }
-    
+     */
   .little-logo1 {
   padding: 0;
   margin: 17px 0;
@@ -914,9 +912,9 @@
   .divide h6 {
   font-size: 10px;
   } 
-  .head-text {
+  /* .head-text {
   padding: 10px 20px 20px 30px;    
-  }      
+  }       */
   .head-text h2 {
   font-size: 40px;
   }     
@@ -1192,9 +1190,9 @@
   #the-box1 {
   text-align: left;
   }
-  .head-text {
+  /* .head-text {
   padding: 10px 20px 20px 30px;    
-  }   
+  }    */
   .head-text h2 {
   font-size: 30px;
   }   
@@ -1438,9 +1436,9 @@
   
   @media  screen and (max-width: 600px)  {
   
-  .head-text {
+  /* .head-text {
   padding: 10px 20px 20px 30px;    
-  }     
+  }      */
   .head-text h2 {
   font-size: 30px;
   }     
@@ -1685,9 +1683,9 @@
   #nav-sword  span {
   position: relative;
   }     
-  .head-text {
+  /* .head-text {
   padding: 10px 20px 20px 30px;
-  }
+  } */
   .head-text h2 {
   font-size: 25px;
   }
