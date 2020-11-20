@@ -61,6 +61,12 @@
   width: 15px;
   }
 
+  /* .glide__bullets  .glide__bullet:active {
+    background: #717CFF;
+    height: 15px;
+    width: 15px;
+  } */
+
   .glide__bullets  {
   text-align: center;
   padding-top: 50px;
@@ -186,6 +192,10 @@ max-width: 1440px;
   align-content: center;
   text-align: center;
   }
+  .owl-one img {
+    margin: 10px 12px;
+    }
+       
   
   /*------4th section Service section----*/
   
