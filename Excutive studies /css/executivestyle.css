@@ -27,6 +27,10 @@
   ul li ,button{
   list-style: none; 
   }
+
+  ul li a:hover {
+  text-decoration: none;
+  }
         
   a {
   text-decoration: none;      
@@ -38,18 +42,25 @@
   .mobile-nav {
   display: none; 
   }
+
+  
   
   .testimonial-text{
   text-align: center;
   }
     
   .glide__bullets  .glide__bullet {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: #979797;
+  }
+  .glide__bullets  .glide__bullet:hover{
+  background: #717CFF;
   height: 15px;
   width: 15px;
-  border-radius: 50%;
-  background: #7C7C7C;
-  
   }
+
   .glide__bullets  {
   text-align: center;
   padding-top: 50px;
@@ -102,7 +113,6 @@ max-width: 1440px;
   .head-text h2 {
   font-size: 51px;
   padding: 20px 75px 0 0;
-  line-height: 2.5ch;
   }
   
   .head-text h2 span {
@@ -212,7 +222,6 @@ max-width: 1440px;
   .the-box h4 a {
   font-weight: bold;
   font-size: 24px;
-  line-height: 37px;
   color: #37474F;
   }
   
@@ -250,7 +259,6 @@ max-width: 1440px;
   .news-text h2 {
   color: #373737;
   font-size: 37px;
-  letter-spacing: -0.4625px;
   font-weight: bold;
   padding-bottom: 20px;
   }
@@ -259,7 +267,6 @@ max-width: 1440px;
   padding: 40px 50px;
   font-weight: bold;
   font-size: 22px;
-  line-height: 38px;
   color: #7D7D7D;
   }
   
@@ -268,7 +275,7 @@ max-width: 1440px;
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.08);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.08);
   border-radius: 3px;
-  height: 430px;
+  height: auto;
   margin: 10px 20px 20px 0;
   }
   .things img {
@@ -491,13 +498,10 @@ max-width: 1440px;
   
   .leg-thumbs p {
   font-size: 15px;
-  line-height: 32px;
   color:#EEEEEE;
   padding: 10px 70px 0 0;
   }
   .leg-thumbs ul li {
-  font-size: 15px;
-  line-height: 49px;
   color: #EEEEEE;
   }
   .little-logo-down {
@@ -518,7 +522,7 @@ max-width: 1440px;
     display: block;
     position: absolute;
     right: 0;
-    top: 35px;
+    top: 39px;
     width: 25px;
     height: 20px;
     display: none;
@@ -569,7 +573,7 @@ max-width: 1440px;
   -o-transition: .25s ease-in-out;
   transition: .25s ease-in-out; 
   }
-  #nav-sword  span:nth-child(1) {
+  #span:nth-child(1) {
   top: 0px; 
   }
   #nav-sword  span:nth-child(2) {
@@ -599,7 +603,7 @@ max-width: 1440px;
   transform: rotate(-135deg); 
   }
   
-  
+
   
   /* Resonsive way */
   
@@ -613,6 +617,10 @@ max-width: 1440px;
   }
   
   @media  screen and (max-width: 1240px)  {
+    .student-image {
+    display: none;
+      }
+
   .testimony-1{
   padding: 0 20px ;
   text-align: left;
@@ -627,10 +635,10 @@ max-width: 1440px;
   }     
   .mobile-nav {
   display: none;
-  padding-left: 25px;
+  padding-left: 5px;
   padding-top: 10px;
   padding-bottom: 20px;
-  background: #FAFAFA;
+
   position: relative;
   z-index: 99;
   width: 100%;
@@ -643,7 +651,7 @@ max-width: 1440px;
   text-align: left;
   padding: 15px 0;
   text-transform: capitalize;
-  font-size: 2em;
+  font-size: 1.5em;
   color: #333; 
   }
                 
@@ -658,10 +666,10 @@ max-width: 1440px;
   .head-text p{
   font-size: 20px;
   }          
-  /* .logo1 {
-  padding: 30px 20px 20px 30px;
+  .logo1 {
+  padding: 30px 0 0 0;
   }
-     */
+    
   .little-logo1 {
   padding: 0;
   margin: 17px 0;
@@ -675,9 +683,9 @@ max-width: 1440px;
   .future {
   padding: 0 1px;
   }        
-  .future-uni {
-  font-size: 35px;
-  padding: 20px ;
+  .future-uni h2 {
+  font-size: 25px;
+  padding: 20px;
   }     
   .owl-one img {
   margin: 10px 12px;
@@ -748,7 +756,7 @@ max-width: 1440px;
   } 
   .things img {
   width: 100%;
-  height: 50%;
+  height: 65%;
   }       
   .things-kids h4  {
   font-size: 20px;
@@ -908,13 +916,14 @@ max-width: 1440px;
     }
   
     @media  screen and (max-width: 1024px)  {
+
   
   .divide h6 {
   font-size: 10px;
   } 
-  /* .head-text {
-  padding: 10px 20px 20px 30px;    
-  }       */
+  .head-text {
+  padding: 5px;    
+  }      
   .head-text h2 {
   font-size: 40px;
   }     
@@ -925,9 +934,9 @@ max-width: 1440px;
   
   /* future */    
     
-  .future-uni  {
-  font-size: 35px;
-  padding: 20px ;
+  .future-uni h2 {
+  font-size: 25px;
+  padding: 15px ;
   }
      
       
@@ -1006,11 +1015,11 @@ max-width: 1440px;
   } 
   .things img {
   width: 100%;
-  height: 50%;
+  height: 70%;
   }
           
   .things-kids h4  {
-  font-size: 20px;
+  font-size: 24px;
   padding: 5px ;
   }
       
@@ -1204,9 +1213,8 @@ max-width: 1440px;
   .future {
   margin: 0;
   }
-  .future-uni {
-  font-size: 30px;
-  padding: 23px ;
+  .future-uni h2{
+  font-size: 20px;
   }
   
   /* service */
@@ -1235,8 +1243,7 @@ max-width: 1440px;
   margin: 20px 20px;
   }    
   .the-box h4 a {
-  font-size: 28px;
-  line-height: 37px;
+  font-size: 25px;
   }   
   .the-box p {
   font-size: 18px;
@@ -1266,7 +1273,7 @@ max-width: 1440px;
   font-weight: bold;
   }   
   .news-text p {
-  padding: 10px 20px ;
+  padding: 0 20px ;
   font-size: 20px;
   }   
   .things {
@@ -1277,10 +1284,10 @@ max-width: 1440px;
   }
   .things img {
   width: 100%;
-  height: 50%;
+  height: 66%;
   }   
   .things-kids h4  {
-  font-size: 25px;
+  font-size: 23px;
   padding: 5px ;
   }
   .things-kids p {
@@ -1439,6 +1446,11 @@ max-width: 1440px;
   /* .head-text {
   padding: 10px 20px 20px 30px;    
   }      */
+  #ready-texts h2{
+    margin-top: 20px;
+    padding: 0 15px;
+    font-size: 30px;
+    }
   .head-text h2 {
   font-size: 30px;
   }     
@@ -1448,9 +1460,8 @@ max-width: 1440px;
    
   /* future */    
   
-  .future-uni  {
-  font-size: 30px;
-  padding: 23px ;
+  .future-uni h2 {
+  font-size: 18px;
   }
     
    /* service */
@@ -1480,7 +1491,7 @@ max-width: 1440px;
   margin: 20px 20px;
   }
   .the-box h4 a {
-  font-size: 28px;
+  font-size: 22px;
   }
         
   .the-box p {
@@ -1509,7 +1520,7 @@ max-width: 1440px;
   font-size: 25px;
   }      
   .news-text p {
-  padding: 10px 20px ;
+  padding: 0 20px ;
   font-size: 15px;
   }      
   .things {
@@ -1519,7 +1530,7 @@ max-width: 1440px;
   padding: 5px;
   }  
   .things-kids h4  {
-  font-size: 25px;
+  font-size: 24px;
   padding: 5px ;
   }  
   .things-kids p {  
@@ -1676,7 +1687,13 @@ max-width: 1440px;
     
   
   @media  screen and (max-width: 480px) {
+  .shift {
+  width: 100%;
+  }
   
+  #nav-sword.open span:nth-child(3) {
+  top: 5px;
+  }
   #nav-sword {
   right: 0;
   } 
@@ -1694,10 +1711,13 @@ max-width: 1440px;
   }   
   
   /* future */
+  .future-uni {
+  padding-bottom: 10px;
+  }
   
-  .future-uni  {
-  font-size: 25px;
-  padding: 23px 20px;
+  .future-uni h2  {
+  font-size: 20px;
+  padding: 0 20px;
   }
   
   /* service */
@@ -1708,12 +1728,11 @@ max-width: 1440px;
   text-align: center;
   } 
   .services-text h3{
-  font-size: 26px;
-  padding: 20px;
+  font-size: 20px;
+  padding: 0 20px;
   }
   .services-text p {
   font-size: 15px;
-  line-height: 24px;
   padding: 15px  20px;
   }
   .the-box {
@@ -1725,12 +1744,11 @@ max-width: 1440px;
   margin: 10px 20px;
   }  
   .the-box h4 a {
-  font-weight: bold;
-  font-size: 25px;
+  font-size: 16px;
   } 
   .the-box p {
   font-size: 13px;
-  padding: 20px 20px 0 0;
+  padding: 0 20px 0 0;
   }  
   .the-box .btn {
   color: #717CFF;
@@ -1754,22 +1772,25 @@ max-width: 1440px;
   .news-text h2 {
   font-size: 25px;
   font-weight: bold;
+  padding-bottom: 0;
   }  
   .news-text p {
-  padding: 10px 20px ;
+  font-weight: normal;
+  padding: 0 20px ;
   font-size: 15px;
   } 
   .things {
   margin: 20px ;
   } 
   .things p {
+  font-size: 13px;
   color: #565656;
   padding: 5px;
   } 
   .things-kids h4  {
   color: #252525;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 15px;
   line-height: 39px;
   padding: 5px ;
   }
@@ -1793,13 +1814,14 @@ max-width: 1440px;
   text-align: center;
   } 
   .upcoming-text h2 {
-  font-size: 25px;
-  padding: 20px 0;
+  font-size: 22px;
+  padding: 5px 0;
+
   } 
   .upcoming-text p {
   font-weight: normal;
-  font-size: 14px;
-  padding: 10px 15px;
+  font-size: 12px;
+  padding: 7px 10px;
   }
   .up-event {
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.08);
@@ -1849,25 +1871,26 @@ max-width: 1440px;
   }
     
   .events-text h2 {
-  font-size: 25px;
+  font-size: 23px;
   }
     
   .events-text p { 
   font-size: 12px;
-  line-height: 25px;
-  padding: 10px 15px 10px 0;
+  line-height: 20px;
+  padding: 5px 0;
   }
     
   .event-sons {
   text-align: center;
+  padding: 0;
   }
     
   .event-sons h4 {
-  font-size: 25px;
+  font-size: 23px;
   }
     
   .event-sons p {
-  font-size: 20px;
+  font-size: 12px;
   }
   
   
@@ -1881,13 +1904,13 @@ max-width: 1440px;
   }
     
   .testimony-head-text h1 {
-  font-size: 25px;
-  padding-top: 50px;
+  font-size: 22px;
+  padding-top: 15px;
   }
     
   .testimony-head-text p {
-  font-size: 15px;
-  padding: 25px 20px;
+  font-size: 13px;
+  padding: 15px 20px;
   }
     
   
@@ -1895,17 +1918,17 @@ max-width: 1440px;
   .testimony-line h2 {
   padding-left: 20px;
   padding-right: 20px;
-  font-size: 15px;
+  font-size: 19px;
   }
     
   .testimony-line  p {
   padding-left: 20px;
   padding-right: 20px;
-  font-size: 12px;
+  font-size: 14px;
   }
     
   .money-rail  {
-  font-size: 15px;
+  font-size: 13px;
   color: #37474F;
   }
     
@@ -1938,21 +1961,42 @@ max-width: 1440px;
   .little-logo-down {
   padding: 5px 0;
   } 
-  .little-logo-down a {
+  .-down a {
   padding: 0 10px 0 0;
   } 
   .copyright {
   padding: 0;
   }
+  .little-logo1 a {
+  padding: 0 7px 0 3px;
+  font-size: 13px;
+  color: #fff;
+  }
+  .leg-thumbs ul li {
+  font-size: 12px;
+  padding: 15px 0;
+}
   
-  
+.legs .copyright {
+font-size: 18px;
+}
   
   }
   
   @media  screen and (max-width: 411px) {
-  .event-sons {
+  /* .event-sons {
   display: none;
-  }
-  
+  } */
+  .things-kids h4 {
+    color: #252525;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 39px;
+    padding: 5px;
+}
+.things img {
+  width: 100%;
+  height: 50%;
+}
   }
   

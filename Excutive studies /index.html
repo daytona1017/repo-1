@@ -59,8 +59,8 @@
           </div>
         </div>
         
-  
-      <div class="mobile-nav">
+  <div class="container" >
+    <div class="mobile-nav">
         <div class="nav-links" id="myLinks">
           <a href="#">Home</a>
           <a href="#">About Us</a>
@@ -69,7 +69,9 @@
           <a href="#">Country</a>
           <a href="#" class="white-btn">Apply</a>
         </div>
-      </div>
+      </div> 
+  </div>
+
       
   
 </section>
@@ -307,16 +309,16 @@
                     <div class="col-lg-4 col-md-12">
                     <li class="glide__slide">
                         <div class="event-sons">
-                            <img src="images/country3.jpg" alt="">
+                            <img src="images/country3.jpg" class="shift" alt="">
                             <h4>Study in Australia</h4>
                             <p>Ut aut corporis accusantium illo ullam qui laudantium. Maxime rerum sunt et sequi sed qui rerum hic. Voluptatem maiores voluptatum voluptate porro harum. Facilis voluptatum eum est.</p>
                         </div>   
                         </div>
                     </li>
                     <div class="col-lg-4 col-md-12">
-                    <li class="glide__slide">
+                    <li class="glide__slide" >
                         <div class="event-sons">
-                            <img src="images/country3.jpg" alt="">
+                            <img src="images/country3.jpg" class="shift"  alt="">
                             <h4>Study in Australia</h4>
                             <p>Ut aut corporis accusantium illo ullam qui laudantium. Maxime rerum sunt et sequi sed qui rerum hic. Voluptatem maiores voluptatum voluptate porro harum. Facilis voluptatum eum est.</p>
                         </div>   
@@ -326,7 +328,7 @@
                     <div class="col-lg-4 col-md-12">
                     <li class="glide__slide">
                         <div class="event-sons">
-                            <img src="images/country3.jpg" alt="">
+                            <img src="images/country3.jpg" class="shift"  alt="">
                             <h4>Study in Australia</h4>
                             <p>Ut aut corporis accusantium illo ullam qui laudantium. Maxime rerum sunt et sequi sed qui rerum hic. Voluptatem maiores voluptatum voluptate porro harum. Facilis voluptatum eum est.</p>
                         </div>   
@@ -569,15 +571,13 @@ glide.mount()
     var glide = new Glide('#retro', {
     type: 'carousel',
     perView: 3,
-    focusAt: 'center',
     breakpoints: {
-    1300: {
-    perView: 2,
+    1240: {
+    perView: 2
     },
-    1024: {
+    760: {
     perView: 1
-    
-    }          
+    }            
 }
 })
 
