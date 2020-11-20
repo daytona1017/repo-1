@@ -493,6 +493,7 @@ max-width: 1440px;
   background-color :#717CFF;
   padding: 10px 30px;
   border-radius: 5px;
+  color: #fff;
   }
   
   #ready-texts .btn .fa {
@@ -513,6 +514,8 @@ max-width: 1440px;
   }
   .leg-thumbs ul li {
   color: #EEEEEE;
+  padding: 25px 0 0 0;
+
   }
   .little-logo-down {
   padding-top: 165px;
